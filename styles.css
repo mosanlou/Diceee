@@ -32,6 +32,37 @@ img {
   width: 80%;
 }
 
+
+button {
+  border: 1px solid black; 
+  background-color: #4ECCA3; 
+  padding: 20px 40px 20px 40px; 
+  transform: translate(-50%, -50%);
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  margin: 20px; 
+  width: 200px;
+ display:inline-block;  
+ position:fixed;
+  left: 49%;
+
+  color:white; 
+  cursor:pointer;
+  animation: mymove 20s infinite;
+  transform: translate(-50%, -50%);
+            
+
+}
+  div.start:hover{
+  border: 1px solid #f2efef;
+  background-color:transparent; 
+  color:rgb(242, 245, 247);
+    }
+     @keyframes mymove {
+    50% {border-radius: 50px;} 
+}
+
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;
